@@ -1,0 +1,99 @@
+* {
+    margin:0;   /* 마진 리셋 */
+    padding:0;   /* 패딩 리셋 */ 
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration:none;   
+}
+
+#logo{
+    /*font-family*/
+    float : left;
+    width:250px;
+    height:100px;
+    color : black;
+    padding-left : 10px;
+    
+}
+
+#logo h1{
+    font-size: 60px;
+    color : white;
+    line-height: 100px;
+}
+
+nav{
+    float : right;
+    color : white;
+}
+
+header{
+    width : 100%;
+    height : 100px;
+    background-color :black;
+}
+
+main{
+    width : 100%;
+    height : 800px;
+    background-color :white;
+
+}
+
+footer{
+    width : 100%;
+    height: 100px;
+    background-color :grey;
+}
+
+.body_container{
+    
+}
+
+.main_container{
+    height : 100%;
+    width : 100%;
+
+}
+
+#image{
+    height : 800px;
+    width : 50%;
+    border-style : solid;
+    border-right-color : black;
+    border-left-color :white;
+    border-top-color :white;
+    border-bottom-color :white;
+    float: left;
+}
+
+#menubar2{
+    height: 100px;
+    width: 100%;
+    background-color: grey;
+}
+
+#day_menu{
+    float : left;
+    padding-left : 80px;
+}
+
+#day{
+    height: 100%;
+    list-style : none;
+}
+
+#day > li {
+    float:left; 
+    position: relative;  
+}
+
+#day > li > a{
+    display:block; 
+    color:#fff; 
+    font-size: 30px;
+    font-weight:600;  
+    padding:30px 30px; 
+}
